@@ -1,4 +1,4 @@
-KeyInfo utility will list out all keys from a specified keystore file.
+KeyInfo utility will list out all keys from a specified keystore file along with the key algorithm (which is not getting displayed using the standard java keytool command).
 
 KeyInfo Usage:
     $ java KeyInfo -keystore keystoreFilePath [-storepasswd keystorePassword] [-storetype keystoreType] [-keypasswd keypassword]
